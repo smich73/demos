@@ -1,0 +1,9 @@
+ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
+ 
+// Get Stock information, show user.
+string strRet = await Yahoo.GetStock(activity.Text);
+
+// return our reply to the user
+Activity reply = activity.CreateReply(strRet);
+
+await connector.Conversations.ReplyToActivityAsync(reply);
