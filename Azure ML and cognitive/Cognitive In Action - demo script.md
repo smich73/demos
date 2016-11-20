@@ -171,7 +171,7 @@ Play Uber video -  shows facial verification
 ### BOTS plus Cognitive
 
 1. Open Skype
-2. Show Bing Music bot – uses Bing video cognitive API – type msuic lyrics or band name
+2. Show Bing Music bot – uses Bing video cognitive API – type music lyrics or band name - eg. Muse
 3. Caption bot – upload ‘cat on a bench’
 4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
 
