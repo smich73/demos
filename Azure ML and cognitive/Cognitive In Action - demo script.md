@@ -7,14 +7,15 @@ Takes about 15-20 minutes.
 * None
 
 ### Screens and apps
-* Chrome
+* Chrome or Edge
+
 * https://www.microsoft.com/cognitive-services/en-us/computer-vision-api
 
 ## COMPUTER VISION
 ### Analyse
 1. Go to https://www.microsoft.com/cognitive-services/en-us/computer-vision-api and scroll to the `Analyze and Image` section
 
-2. Use coffee cup image, upload and show JSON description, tags, adult, categories etc.
+2. Use coffee cup image, upload and show JSON description, tags, adult, gender, age, categories etc.
   
 3. Repeat with a stock portal image showing a face
  
@@ -77,18 +78,72 @@ Takes about 15-20 minutes.
 ## Video
 1. Go to https://www.microsoft.com/cognitive-services/en-us/video-api
 
-2. Use the built-in videos to show Stabilize shaky videos, Detect and track faces, Detect motion, Generate video thumbnails
+2. Use the built-in videos to show Stabilize shaky videos, Detect and track faces, Detect motion
 
-3. Scroll to the `Analyze video in near real-time` section
-
-4. Show the videos
 
 
 ## SPEECH
-### Analyse
-1. Go to https://www.microsoft.com/cognitive-services/en-us/computer-vision-api and scroll to the `Analyze and Image` section
+### Bing Speech - speech recognition
 
-2. Use coffee cup image, upload and show JSON description, tags, adult, categories etc.
-  
-3. Repeat with a stock portal image showing a face
+1.Go to https://www.microsoft.com/cognitive-services/en-us/speech-api
+
+2.Set the language to  English - GB 
+
+3.Use a sample
+
+### Bing Speech - Text to Speech
+
+1.Go to https://www.microsoft.com/cognitive-services/en-us/speech-api and scroll to  Text to Speech 
+
+
+2.Set language to  English GB  and  'Susan '
+
+
+3.Copy this text  Two GUID's walk into a bar .... GUID one says "a wine, a beer and a nice glass of champagne".......the barman says "That's a strange order!" ......GUID two says "Ignore him, he's random" 
+◦Note punctuations and pauses
+◦Also note that it does not recognise  GUID  properly
+
+
+### Bing Speech - Speaker Recogntiion > identification
+
+1. Use samples to show identification of presidents
+
+## LANGUAGE
+### Spell Check API
+
+1.Go to https://www.microsoft.com/cognitive-services/en-us/bing-spell-check-api
+
+2.Show spell and proof (latter less aggressive and adds capitalisation, basic punctuation and other features to aid doc creation)
+
+
+### Language Understanding
+
+1.Go to https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis
+
+2.Explain what it is.
+
+### Language Analytics - sentiment
+
+1.Go to https://www.microsoft.com/cognitive-services/en-us/text-analytics-api
+
+2.Use samples to show positive and negative
+
+### MORE USEFUL CASES
+
+## HOW HAPPY
+
+1. This shows we can combine a few of these APIs - sentiment and LUIS
+2. Go to http://howhappy.co.uk/
+3.  Upload Justin Beiber picture and upload.
+4. Who is the happiest? The daughter
+5. Who is the saddest or angriest? No surprise there - the dad
+6. who is the most surprised? Apparently it is this girl..
+
+##UBER
+
+Play Uber video -  shows facial verification
+
+
+
+
 
