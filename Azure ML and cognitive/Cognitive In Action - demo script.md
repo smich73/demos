@@ -147,18 +147,33 @@ Play Uber video -  shows facial verification
 
 #Simple BOT
 
-Show hello world project in Emulator (new> project >bot in c#)
+1. Show hello world project in Emulator (new> project >bot in c#)
 
-2. Now open BotStockDemo1 from: https://github.com/smich73/demos/tree/master/BotStockDemo1/BotStockDemo1
+2. Now open BotStockDemo1 from: https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo1/BotStockDemo1
 
-3. Replace the lines in messagecontroller.cpp with the code in the codesnippet1.txt file
+3. Replace the lines in messagecontroller.cpp with the code in the codesnippet1.txt file or run as-is
 
-4. Run in emulator – just enter stock symbol eg. MSFT
+4. Show Yahoo class
 
-5. Show that you cannot use NLP eg. ‘show me stock symbol for MSFT’
+5. Run in emulator – just enter stock symbol eg. MSFT
 
-6. Show portal at dev.botframework.com and how you can select channels
+6. Show that you cannot use NLP eg. ‘show me stock symbol for MSFT’
 
+7. Show portal at dev.botframework.com and how you can select channels
+
+#BOT plus LUIS
+
+1. Use https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo2/BotStockDemo2
+2. Show LUIS dialog cs file and entry point
+3. Show luis.ai stock model
+4. Run in emualtor using 'show me value of Microsoft' and 'previous one' (shows context state)
+
+#BOTS plus Cognitive
+
+1. Open Skype
+2. Show Bing Music bot – uses Bing video cognitive API – type msuic lyrics or band name
+3. Caption bot – upload ‘cat on a bench’
+4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
 
 
 
