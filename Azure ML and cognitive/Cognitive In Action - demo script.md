@@ -143,9 +143,9 @@ Takes about 15-20 minutes.
 
 Play Uber video -  shows facial verification
 
-###BOT Demos
+##BOT Demos
 
-#Simple BOT
+###Simple BOT
 
 1. Show hello world project in Emulator (new> project >bot in c#)
 
@@ -161,14 +161,14 @@ Play Uber video -  shows facial verification
 
 7. Show portal at dev.botframework.com and how you can select channels
 
-#BOT plus LUIS
+###BOT plus LUIS
 
 1. Use https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo2/BotStockDemo2
 2. Show LUIS dialog cs file and entry point
 3. Show luis.ai stock model
 4. Run in emualtor using 'show me value of Microsoft' and 'previous one' (shows context state)
 
-#BOTS plus Cognitive
+###BOTS plus Cognitive
 
 1. Open Skype
 2. Show Bing Music bot – uses Bing video cognitive API – type msuic lyrics or band name
