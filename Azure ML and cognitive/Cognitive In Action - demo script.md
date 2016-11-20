@@ -143,6 +143,23 @@ Takes about 15-20 minutes.
 
 Play Uber video -  shows facial verification
 
+###BOT Demos
+
+#Simple BOT
+
+Show hello world project in Emulator (new> project >bot in c#)
+
+2. Now open BotStockDemo1 from: https://github.com/smich73/demos/tree/master/BotStockDemo1/BotStockDemo1
+
+3. Replace the lines in messagecontroller.cpp with the code in the codesnippet1.txt file
+
+4. Run in emulator – just enter stock symbol eg. MSFT
+
+5. Show that you cannot use NLP eg. ‘show me stock symbol for MSFT’
+
+6. Show portal at dev.botframework.com and how you can select channels
+
+
 
 
 
