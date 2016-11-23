@@ -132,9 +132,9 @@ Takes about 15-20 minutes.
 
 ## HOW HAPPY
 
-1. This shows we can combine a few of these APIs - sentiment and LUIS
+1. This shows we can combine a few of these APIs - EMOTION and LUIS
 2. Go to http://howhappy.co.uk/
-3.  Upload Justin Beiber picture and upload.
+3. Upload Justin Beiber picture and talk about it
 4. Who is the happiest? The daughter
 5. Who is the saddest or angriest? No surprise there - the dad
 6. who is the most surprised? Apparently it is this girl..
