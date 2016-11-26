@@ -99,10 +99,8 @@ Takes about 15-20 minutes.
 2.Set language to  English GB  and  'Susan '
 
 
-3.Copy this text  Two GUID's walk into a bar .... GUID one says "a wine, a beer and a nice glass of champagne".......the barman says "That's a strange order!" ......GUID two says "Ignore him, he's random" 
+3.Copy this text  "How many programmers does it take to change a light bulb? None. It's a hardware problem." 
 ◦Note punctuations and pauses
-◦Also note that it does not recognise  GUID  properly
-
 
 ### Bing Speech - Speaker Recogntiion > identification
 
@@ -166,7 +164,7 @@ Play Uber video -  shows facial verification
 1. Use https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo2/BotStockDemo2
 2. Show LUIS dialog cs file and entry point
 3. Show luis.ai stock model
-4. Run in emualtor using 'show me value of Microsoft' and 'previous one' (shows context state)
+4. Run in emulator using 'show me value of Microsoft' and 'previous one' (shows context state)
 
 ### BOTS plus Cognitive
 
@@ -175,6 +173,29 @@ Play Uber video -  shows facial verification
 3. Caption bot – upload ‘cat on a bench’
 4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
 
+###Skyscanner BOT
+
+1. Say 'hi'
+2. Say 'Fly to Rome from Bristol next weekend'.Note identified from, to and also provided date for weekend
+3. Enter return date eg.  'Dec 4th'
+4. returned results - Note the use of carousel/hero cards
+5. Can set pro-active price alerts
+
+
+### EXCEL BOT
+
+1.  Try http://aka.ms/excelbot or https://join.skype.com/bot/b938da29-09bc-4513-9349-85ec239e7886 to add the bot to your Skype (consumer) contacts.
+2. Open the excel sheet (one drive for business) - loancalc.xls – using edge or Chrome. Ensure it is opened for editing in the browser
+We want to show valuations and calculations changing and so have Excelbot working side-by-side with the Excel sheet.
+3. Say ‘hi’
+4. Authenticate with one drive for business credentials if required
+5. Say 'Look at loancalc'
+6. Say 'What is the value in C4'?
+7. Say 'What names are in the workbook?' (named ranges)
+8. Say 'What is the value of totalloancost?'
+9. Say 'Change that to  X'
+10. Say 'What are the charts in the workbook?'
+11. Say 'Show me chart2'
 
 
 
