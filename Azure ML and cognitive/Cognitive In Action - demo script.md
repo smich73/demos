@@ -1,8 +1,6 @@
 # Cognitive Services Vision APIs
 Demos of the cognitive services APIs
 
-Takes about 15-20 minutes.
-
 ### Pre Reqs
 * None
 
@@ -65,6 +63,7 @@ Takes about 15-20 minutes.
 1. Go to https://www.microsoft.com/cognitive-services/en-us/emotion-api and scroll to the `Recognize Emotions in Video` section
 
 2. Play the default video in the portal
+
 
 ## FACE
 ### Face detection and verification
@@ -137,6 +136,50 @@ Takes about 15-20 minutes.
 5. Who is the saddest or angriest? No surprise there - the dad
 6. who is the most surprised? Apparently it is this girl..
 
+## INTELLIGENT KIOSK
+
+1. Automatic face capture: example capturing photos from web camera
+It uses the built-in face tracking functionality in Windows 10 to detect when people are nearby and applies a simple 
+movement detection heuristic to determine when they are posing for a photo. In the example it also shows the age, 
+gender and identification of all the people in each capture. This is recognising me from a trained facial model that is validating matching me with library images
+
+Tech used: Windows 10 Face Tracking; Cognitive Age and gender prediction; Cognitiv Face identification/verification
+
+2. Bing News 
+Connecting the Bing News APIs with the Text Analytics APIs to create a visualization of the news based on their sentiment and most common topics
+
+Tech used: Bing News API, Bing AutoSuggestion API, Text Sentiment and Text KeyPhrase Extraction
+
+3. Emotion API Explorer
+Playground for Emotion APIs - show smiling, sad etc..
+
+Tech used: Windows 10 Face Tracking; Emotion prediction; Bing Image Search API; Bing AutoSuggestion API
+
+4. Face API 
+A playground for the Face APIs used for age and gender prediction, as well as face identification
+
+Tech used: Windows 10 Face Tracking; Age and gender prediction; Face identification; Facial landmarks; Bing Image Search API; Bing AutoSuggestion API
+
+5. Mall KIOSK
+An example of a Mall kiosk that makes product recommendations based on the people in front of the camera and analyzes their reaction to it
+
+Tech used: Windows 10 Face Tracking; Age and gender prediction; Realtime sampling of Emotion; Face identification; Windows 10 Speech-To-Text; Text Sentiment Analysis
+
+6. Realtime crowd insights
+A realtime workflow for processing frames from a web camera to derive realtime crowd insights such as demographics, emotion and unique face counting
+
+Tech used:  Windows 10 Face Tracking; Realtime sampling; Age, gender and emotion prediction; Face identification; Unique face counting
+
+7. realtime driving monitor
+A futuristic scenario where a dashboard camera in a car could be used to monitor the driver and determine when the driver is looking away from the road ahead, sleeping, yawning etc.  
+Show looking away and also the audio warning for wake up when falling asleep (toggle on right needs to be set to ON)
+
+Tech used:  Windows 10 Face Tracking; Realtime sampling; Facial Landmarks; Head Pose; Face identification; Unique face tracking; Image Captioning
+
+##SEEING AI
+
+Play SeeingAI video - combines emotion, caption, text analytics, OCR
+
 ## UBER
 
 Play Uber video -  shows facial verification
@@ -170,7 +213,7 @@ Play Uber video -  shows facial verification
 
 1. Open Skype
 2. Show Bing Music bot – uses Bing video cognitive API – type music lyrics or band name - eg. Muse
-3. Caption bot – upload ‘cat on a bench’
+3. Caption bot – upload ‘cat on a bench’. Also show picture of crowd that illustrates combination of sentiment with captions in response.
 4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
 
 ###Skyscanner BOT
