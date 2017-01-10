@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BotStockDemo2
 {
-    [LuisModel("fa524414-012e-4813-801e-3c8f303ecc68", "b3cbf914a8414205a40c99172686c62d")]
+    [LuisModel("fa524414-012e-4813-801e-3c8f303ecc68", "d69e3234be08461d80f2a8bee17bf474")]
     [Serializable]
     public class StockDialog : LuisDialog<object>
     {
