@@ -10,6 +10,8 @@ Demos of the cognitive services APIs
 * Intelligent Kiosk apps
 * https://www.microsoft.com/cognitive-services/en-us/
 * loancalc open for editing in browser
+* Visual Studio with Botdemo 1, botdemo2 and texttospeechbot Open
+* Bot emulator
 
 ### Screens and apps
 * Chrome or Edge
@@ -206,7 +208,7 @@ Play SeeingAI video - combines emotion, caption, text analytics, OCR
 
 
 
-## BOT Demos
+## BOT Dev Demos
 
 ### Simple BOT
 
@@ -231,6 +233,8 @@ Play SeeingAI video - combines emotion, caption, text analytics, OCR
 3. Show luis.ai stock model
 4. Run in emulator using 'show me value of Microsoft' and 'previous one' (shows context state)
 
+## BOT Demos
+
 ### BOTS plus Cognitive
 
 1. Open Skype
@@ -238,8 +242,9 @@ Play SeeingAI video - combines emotion, caption, text analytics, OCR
 3. Show Bing News bot – uses Bing news API
 3. Caption bot – upload ‘cat on a bench’. Also show picture of crowd that illustrates combination of sentiment with captions in response.
 4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
+5. Show text to speech code sample
 
-###Skyscanner BOT
+### Skyscanner BOT
 
 1. Say 'hi'
 2. Say 'Fly to Rome from Gatwick next weekend' or 'Fly to Rome from Gatwick first weekend in March' .Note identified from, to and also provided date for weekend
