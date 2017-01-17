@@ -214,7 +214,7 @@ Play SeeingAI video - combines emotion, caption, text analytics, OCR
 
 1. Show hello world project in Emulator (new> project >bot in c#)
 
-2. Now open BotStockDemo1 from: https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo1/BotStockDemo1
+2. Now open BotStockDemo1
 
 3. Replace the lines in messagecontroller.cpp with the code in the codesnippet1.txt file or run as-is
 
@@ -228,7 +228,7 @@ Play SeeingAI video - combines emotion, caption, text analytics, OCR
 
 ### BOT plus LUIS
 
-1. Use https://github.com/smich73/demos/tree/master/Bot%20Framework/BotStockDemo2/BotStockDemo2
+1. OPen BotStockDemo2
 2. Show LUIS dialog cs file and entry point
 3. Show luis.ai stock model
 4. Run in emulator using 'show me value of Microsoft' and 'previous one' (shows context state)
