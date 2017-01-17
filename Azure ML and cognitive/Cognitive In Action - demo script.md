@@ -2,14 +2,22 @@
 Demos of the cognitive services APIs
 
 ### Pre Reqs
-* None
+* howhappy.co.uk
+* https://www.bing.com/translator/
+* LUIS.ai
+* https://qnamaker.ai/
+* https://dev.botframework.com/
+* Intelligent Kiosk apps
+* https://www.microsoft.com/cognitive-services/en-us/
+* loancalc open for editing in browser
+
 
 ### Screens and apps
 * Chrome or Edge
 
 * https://www.microsoft.com/cognitive-services/en-us/computer-vision-api
 
-## COMPUTER VISION
+## VISION: COMPUTER VISION
 ### Analyse
 1. Go to https://www.microsoft.com/cognitive-services/en-us/computer-vision-api and scroll to the `Analyze and Image` section
 
@@ -49,7 +57,7 @@ Demos of the cognitive services APIs
 3. Toggle smart cropping on and off
 
 
-## EMOTION 
+## VISION: EMOTION 
 ### Recognize Emotions in Images
 1. Go to https://www.microsoft.com/cognitive-services/en-us/emotion-api and scroll to the `Recognize Emotions in Images` section
 
@@ -58,14 +66,13 @@ Demos of the cognitive services APIs
 3. Upload and show the faces and emotions detected
 
 
-## Emotion 
 ### Recognize Emotions in Video
 1. Go to https://www.microsoft.com/cognitive-services/en-us/emotion-api and scroll to the `Recognize Emotions in Video` section
 
 2. Play the default video in the portal
 
 
-## FACE
+## VISION: FACE
 ### Face detection and verification
 1. Go to https://www.microsoft.com/cognitive-services/en-us/face-api and scroll to the `Face Detection` section
 
@@ -74,21 +81,24 @@ Demos of the cognitive services APIs
 3. Show Face Verification, Face Identification, Similar Face Searching, Face Grouping in portal
 
 
-## Video
+## VISION: Video
 1. Go to https://www.microsoft.com/cognitive-services/en-us/video-api
 
 2. Use the built-in videos to show Stabilize shaky videos, Detect and track faces, Detect motion
 
+## VISION: UBER
+
+Play Uber video -  shows facial verification
 
 
-## SPEECH
-### Bing Speech - speech recognition
+## SPEECH: Bing Speech
+### Bing Speech - speech to text
 
 1.Go to https://www.microsoft.com/cognitive-services/en-us/speech-api
 
 2.Set the language to  English - GB 
 
-3.Use a sample
+3.Use sample 1 or 2
 
 ### Bing Speech - Text to Speech
 
@@ -98,12 +108,13 @@ Demos of the cognitive services APIs
 2.Set language to  English GB  and  'Susan '
 
 
-3.Copy this text  "How many programmers does it take to change a light bulb? None. It's a hardware problem." 
-◦Note punctuations and pauses
+3.Use sample text file for the customer (note punctuation,pauses)
 
-### Bing Speech - Speaker Recogntiion > identification
+## SPEECH: Speaker Recognition
+### Bing Speech - Presidents
 
-1. Use samples to show identification of presidents
+1. Use samples to show identification of presidents (audio 1 sample)
+
 
 ## LANGUAGE
 ### Spell Check API
@@ -117,7 +128,7 @@ Demos of the cognitive services APIs
 
 1.Go to https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis
 
-2.Explain what it is.
+2.Explain what it is.Show light demo
 
 ### Language Analytics - sentiment
 
@@ -125,7 +136,21 @@ Demos of the cognitive services APIs
 
 2.Use samples to show positive and negative
 
-### MORE USEFUL CASES
+### Language Analytics - translation
+
+1.Go to https://www.bing.com/translator/
+
+2.Use sample text for customer to translate text from English -> Spanish/German and then also show voice conversion
+
+
+## KNOWLEDGE AND SEARCH
+### Knowledge and Search
+
+1.Talk about it and show samples of search
+
+2.Show QnA maker now if you are not going to show it later with BotStockDemo1
+
+3. Show recommendations example
 
 ## HOW HAPPY
 
@@ -180,9 +205,7 @@ Tech used:  Windows 10 Face Tracking; Realtime sampling; Facial Landmarks; Head 
 
 Play SeeingAI video - combines emotion, caption, text analytics, OCR
 
-## UBER
 
-Play Uber video -  shows facial verification
 
 ## BOT Demos
 
@@ -213,13 +236,14 @@ Play Uber video -  shows facial verification
 
 1. Open Skype
 2. Show Bing Music bot – uses Bing video cognitive API – type music lyrics or band name - eg. Muse
+3. Show Bing News bot – uses Bing news API
 3. Caption bot – upload ‘cat on a bench’. Also show picture of crowd that illustrates combination of sentiment with captions in response.
 4. Murphy Bot – uses LUIS, bing image search, image processing to combine ‘ what if bill gates had a beard?’
 
 ###Skyscanner BOT
 
 1. Say 'hi'
-2. Say 'Fly to Rome from Bristol next weekend'.Note identified from, to and also provided date for weekend
+2. Say 'Fly to Rome from Gatwick next weekend' or 'Fly to Rome from Gatwick first weekend in March' .Note identified from, to and also provided date for weekend
 3. Enter return date eg.  'Dec 4th'
 4. returned results - Note the use of carousel/hero cards
 5. Can set pro-active price alerts
