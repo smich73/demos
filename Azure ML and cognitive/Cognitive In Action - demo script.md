@@ -202,7 +202,7 @@ Show looking away and also the audio warning for wake up when falling asleep (to
 
 Tech used:  Windows 10 Face Tracking; Realtime sampling; Facial Landmarks; Head Pose; Face identification; Unique face tracking; Image Captioning
 
-##SEEING AI
+## SEEING AI
 
 Play SeeingAI video - combines emotion, caption, text analytics, OCR
 
