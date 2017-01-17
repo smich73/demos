@@ -11,7 +11,6 @@ Demos of the cognitive services APIs
 * https://www.microsoft.com/cognitive-services/en-us/
 * loancalc open for editing in browser
 
-
 ### Screens and apps
 * Chrome or Edge
 
